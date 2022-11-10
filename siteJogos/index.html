@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Elisa Souto :: elisinha_gabi@hotmail.com">
+    <meta name="description" content="Jogos educacionais e passatempo infantil">
+    <meta name="content" content="Infantil, passatempo, educacional">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Formulário Cadastrar Perfil</title>
+  </head>
+  <body>
+
+    <form id="formulario" class="form-floating" action="index.html" method="get">
+      
+        <div id="container-login" class="container col-sm-12 col-md-6 col-lg-4">
+            <img src="img/minhoca.png" alt="Logotipo" class="pb-4" id="img-logo">
+
+            <h2>Atividade02</h2>
+            <p>Atividade Qi, criando um formulário lindo</p>
+            <h1>"Cadastre-se"</h1>
+    
+         
+          <section class="conteudo" id="formulario">
+            <div id="container-login" class="container text-center col-sm-12 col-md-6 col-lg-4">
+                <h1>Formulário</h1>
+                
+                <div class="form-floating">
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="nome" name="txtnome" size="30" onkeyup="pegaNome();" class="form-control" id="nome" placeholder="name">
+                <label for="nome">NOME</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="email" onkeyup="pegaEmail();" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">EMAIL</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="cpf" onkeyup="pegaCpf();" class="form-control" id="floatingInput" placeholder="000.000.000-00">
+                <label for="number">CPF</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="telefone" onkeyup="pegaTelefone();" class="form-control" id="floatingInput" placeholder="000.000.000-00">
+                <label for="floatingInput">CELULAR</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="cep" onkeyup="pegaCep();" class="form-control" id="cep" placeholder="00000-000">
+                <label for="floatingInput">CEP</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="dNasc" onkeyup="pegaDataNascimento();" class="form-control" id="nascimento"  placeholder="date">
+                <label for="floatingInput">D.NASCIMENTO</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="profissao" onkeyup="pegaProfissao();" class="form-control" id="floatingInput" placeholder="Profissao">
+                <label for="floatingInput">PROFISSÂO</label>
+            </div>
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="linkPerfil" onkeyup="pegaLinkedin();" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingInput">Link do Perfil</label>
+            </div>    
+            <div class="form-floating col-sm-12 col-md-6 col-lg-4">
+                <input type="password" onkeyup="pegaPassword();" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>        
+          </section>
+          <section id="conteudo">
+            <div>
+                <p>Receber e-mail</p>
+            <input type="checkbox" name="check" id="check" class="form-check-input">
+                <label for="check">Sim</label>
+            
+            <input type="checkbox" name="check" id="check" class="form-check-input">
+                <label for="check">Não</label>
+                <br>
+                <p>Gênero</p>
+    
+                <input type="radio" name="radio" id="radio" class="form-check-input">
+                <label for="radio">Feminino</label>
+                    <br>
+                <input type="radio" name="radio" id="radio" class="form-check-input">
+                <label for="radio">Masculino</label>    
+                  
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar" class="btn btn-primary">
+                <a href="#" class="btn btn-warning">Link</a>
+                <input type="reset" value="Limpar" class="btn btn-outline-dark">
+            </div>
+          </div>
+          </section>
+        </form>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+
+  </body>
+</html>
